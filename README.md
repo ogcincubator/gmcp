@@ -1,6 +1,6 @@
 # README
 
-Exploring validation for geospatial features stored in GeoJSON. 🛠
+Exploring validation tools for geospatial features stored in GeoJSON. 🛠
 
 We try to answer these questions about the GeoJSON file:
 * *Is it a valid GeoJSON file?*
