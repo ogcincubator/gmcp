@@ -21,6 +21,13 @@ You can also validate the geometry and the schema using online tools:
 
 The [sample dataset](bike_lane.geojson) was created from an example on the [GMCP page](https://support.google.com/mapcontentpartners/answer/144284#zippy=%2Cbicycle-facilities); it represents bike lanes.
 
+There are several variations of the dataset, to check with the validator:
+* `bike_lane.geojson`: valid in every aspect;
+* `bike_lane_fail_RFC.geojson`: invalid GeoJSON structure;
+* `bike_lane_fail_schema.geojson`: invalid JSON Schema;
+* `bike_lane fail_geom.geojson`: invalid geometry;
+
+
 The [sample schema](bike-schema.json) was created based on the information on section "Bicycle facility fields/attributes" of the same page; it uses [JSON Schema draft-07](https://json-schema.org/).
 
 ## Run validation 🎬
