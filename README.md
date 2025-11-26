@@ -16,6 +16,12 @@ There are several variations of the dataset, to check with the validator:
 
 The [sample schema](bike-schema.json) was created based on the information on section "Bicycle facility fields/attributes" of the same page; it uses [JSON Schema draft-07](https://json-schema.org/).
 
+The [schema documentation](bike-schema.md) was generated using [jsonschema2md](https://pypi.org/project/jsonschema2md/).
+
+```
+jsonschema2md bike-schema.json bike-schema.md
+```
+
 The [sample JSON-FG dataset](bike_lane.jsonfg) was created from the GeoJSON, using GDAL:
 
 ```
